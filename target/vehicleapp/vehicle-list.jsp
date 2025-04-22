@@ -67,9 +67,7 @@
     <div class="vehicle-grid">
         <c:forEach items="${vehicles}" var="vehicle">
             <div class="vehicle-card">
-                <c:if test="${not empty vehicle.imageUrl}">
-                    <img src="${vehicle.imageUrl}" alt="${vehicle.make} ${vehicle.model}" class="vehicle-image">
-                </c:if>
+                
                 <h3>${vehicle.year} ${vehicle.make} ${vehicle.model}</h3>
                 <p>Color: ${vehicle.color}</p>
                 <p>Price: $${vehicle.price}</p>

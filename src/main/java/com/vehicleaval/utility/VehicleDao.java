@@ -77,5 +77,15 @@ public class VehicleDao{
         }
     }
 
+    public Vehicle getVehicleById(Long vehicleId) {
+        EntityManager em = FactoryProvider.getFactory().createEntityManager();
+        try {
+            return em.find(Vehicle.class, vehicleId);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
     
 }

@@ -1,6 +1,5 @@
 /* General Styles */
 body {
-    background-image: url('../images/mahir_car_rental_logo.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -126,7 +125,6 @@ body {
 
 /* Authentication Pages */
 .auth-page {
-    background-image: url('../images/auth-bg.jpg');
     background-size: cover;
     background-position: center;
     min-height: 100vh;

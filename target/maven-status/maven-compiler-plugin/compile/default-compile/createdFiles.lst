@@ -8,6 +8,7 @@ com\vehicleaval\entity\Dealer$DealerRole.class
 com\vehicleaval\FactoryProvider.class
 com\vehicleaval\controller\DealerSignupServlet.class
 com\vehicleaval\controller\AddSlotServlet.class
+com\vehicleaval\controller\UserViewVehicleServlet.class
 com\vehicleaval\controller\DealerLoginServlet.class
 com\vehicleaval\controller\SignupServlet.class
 com\vehicleaval\controller\UserVehicleListServlet.class
