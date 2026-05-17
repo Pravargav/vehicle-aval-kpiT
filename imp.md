@@ -6,3 +6,5 @@ import jakarta.persistence.Persistence;(factoryprovider)
 -> entity
 
 -> controllor - add, buy, login, logout, signin, view, userview, adminview (servlets)
+
+-> frontend - webapp - has jsp's 
